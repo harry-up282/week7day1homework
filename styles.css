@@ -4,17 +4,36 @@
     min-height: 400px;
     padding-top: 3em;
 }
-#home header {
+/* #home header {
     background:  no-repeat lightgrey url(images/cliff_ocean.jpg);
     background-size: 1500px;
+} */
+#home  {
+    background:  no-repeat white url(images/cliff_ocean.jpg);
+    background-size: 100% 400px;
 }
-#activities header {
-    background: no-repeat lightgrey url(images/runfly.jpg);
-    background-size: 1500px;
+#timeofday {
+    width: 1500px;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3a3a3a, #125688;
+    height: 50px;
+    /* background: rgb(34, 193, 195); */
+    background: linear-gradient(
+      0deg,
+      rgba(251, 215, 139, 1) 0%,
+      rgba(118, 213, 245, 1) 100%
+    );
+    text-align: center;
   }
-  #contact header {
-    background: no-repeat lightgrey url(images/cliff_rock.jpg);
-    background-size: 1500px;
+  
+#activities  {
+    background:  no-repeat white url(images/cliff_ocean.jpg);
+    background-size: 100% 400px;
+  }
+  #contact  {
+    background:  no-repeat white url(images/cliff_ocean.jpg);
+    background-size: 100% 400px;
   }
 .main-header {
     background-color:rgb(255, 255, 255, 0.8) ;
@@ -122,7 +141,43 @@ section #partners .partner img {
     max-width: 150px;
     height: auto; */
 } 
-
+* Activities */
+table {
+  width: 1000px;
+  margin: 4em auto 0 auto;
+}
+caption {
+  background-color: #852b1b;
+  height: 40px;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-top: 1em;
+}
+thead {
+  background-color: #bde1ff;
+}
+tbody {
+  background-color: #eeffe6;
+  text-align: center;
+}
+th,
+td {
+  width: 225px;
+  height: 75px;
+  vertical-align: middle;
+  border: solid 1px #852b1b;
+}
+th:first-child {
+  width: 125px;
+  height: 50px;
+  background: #4977d1;
+  color: #fff;
+}
+td:first-child {
+  font-weight: bold;
+  background: #bde1ff;
+}
 
 
 /* Footer */
@@ -177,7 +232,87 @@ footer #nondisclaimer .social .fa-instagram {
     color: white;
 }
 
-
+form {
+    margin-top: 25px;
+    padding: 20px;
+    /* height: 450px; */
+  }
+  fieldset {
+    border-color: #9ed034;
+  }
+  legend {
+    color: #4977d1;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  input[type="text"] {
+    width: 60%;
+    padding: 5px 10px;
+    margin: 9px 0;
+    box-sizing: border-box;
+    display: block;
+  }
+  input[type="email"] {
+    width: 60%;
+    padding: 5px 10px;
+    margin: 9px 0;
+    box-sizing: border-box;
+    display: block;
+  }
+  .radios {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  select {
+    width: 10%;
+    padding: 3px 7px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  .coommentbox label {
+    display: block;
+  }
+  textarea {
+    width: 50%;
+    height: 250px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    display: block;
+  }
+  
+  input[type="submit"] {
+    background-color: #4977d1;
+    border: none;
+    color: white;
+    padding: 9px 25px;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 579px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 18px;
+  }
+  /* form .button input {
+    width: 8em;
+    height: 2.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* background-color: #4977d1; 
+    color: #fff;
+    border: none;
+  } */
+  .selected {
+    background-color: olive;
+    cursor: pointer;
+  }
 /* Home */
 
 
