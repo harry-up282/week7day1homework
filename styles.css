@@ -26,7 +26,11 @@
     );
     text-align: center;
   }
+  #cliff  {
+  background:  no-repeat lightgrey url(images/cliff_rock.jpg);
+  background-repeat: no-repeat;
   
+}
 #activities  {
     background:  no-repeat white url(images/cliff_ocean.jpg);
     background-size: 100% 400px;
